@@ -48,31 +48,54 @@ table {
 	border-spacing: 0;
 }
 
-
+h1, h2 {
+	font-family: 'Inter', sans-serif;
+}
 
 h1 {
-	font-family: 'Inter', sans-serif;
 	font-size: 40px;
 	font-weight: 600;
 	padding-top: 25px;
 	text-align: center;
 }
 
+h2 {
+	font-size: 20px;
+	padding-left: 25px;
+	padding-top: 25px;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: darkolivegreen;
+}
+
+.recipes {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding-top: 50px;
+}
 
 img {
-	width: 40%;
+	width: 35%;
 }
 
 .img {
 	display: flex;
 	justify-content: center;
-	align-items: flex-start;
-	height: 100vh;
 	padding-top: 50px;
 }
 
 .inner-wrap {
 	width: 1000px;
+	display: flex;
+	flex-direction: column;
 }
 
 .outer-wrap {

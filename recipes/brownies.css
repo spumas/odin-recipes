@@ -46,3 +46,38 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+h1, h2 {
+	font-family: "Inter", sans-serif;
+}
+
+
+h1 {
+	font-size: 30px;
+	font-weight: 600;
+	padding-top: 25px;
+	text-align: center;
+}
+
+img {
+	width: 40%;
+}
+
+.img {
+	display: flex;
+	justify-content: center;
+	padding-top: 50px;
+}
+
+.inner-wrap {
+	width: 1000px;
+	display: flex;
+	flex-direction: column;
+}
+
+.outer-wrap {
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	width: 100vw;
+}
