@@ -47,7 +47,7 @@ table {
 	border-spacing: 0;
 }
 
-h1, h2 {
+h1, h2, a {
 	font-family: "Inter", sans-serif;
 }
 
@@ -59,8 +59,21 @@ h1 {
 	text-align: center;
 }
 
+a {
+	text-decoration: none;
+	color: black;
+	font-weight: 600;
+	font-size: 15px;
+}
+
+a:hover {
+	color: rgb(121, 121, 206);
+}
+
 img {
 	width: 40%;
+	-webkit-box-shadow: 0px 15px 20px -5px rgba(0,0,0,0.2); 
+	box-shadow: 0px 15px 20px -5px rgba(0,0,0,0.2);
 }
 
 .img {
@@ -80,4 +93,17 @@ img {
 	display: flex;
 	justify-content: center;
 	width: 100vw;
+}
+
+.back-button {
+	position: fixed;
+	bottom: 20px;
+	left: 20px;
+	right: 0;
+	width: 100px;
+	padding: 10px 20px;
+	border-radius: 8px;
+	background-color: rgb(222, 229, 231);
+	-webkit-box-shadow: 0px 15px 20px -5px rgba(209, 221, 238, 0.1); 
+	box-shadow: 0px 15px 20px -5px rgba(186, 202, 231, 0.1);
 }
