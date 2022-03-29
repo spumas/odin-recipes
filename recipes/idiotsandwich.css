@@ -119,7 +119,7 @@ iframe {
 	display: flex;
 	justify-content: center;
 	width: 100vw;
-	background-color: black;
+	background-color: rgb(28, 93, 179)black;
 }
 
 .back-button {
