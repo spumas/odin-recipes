@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	overflow-x: hidden;
 }
 ol, ul {
 	list-style: none;
@@ -47,8 +48,23 @@ table {
 	border-spacing: 0;
 }
 
-h1, h2, a {
+h1, h2, a, p {
 	font-family: "Inter", sans-serif;
+}
+
+p {
+	font-weight: 600;
+	line-height: 1.6;
+}
+
+h2 {
+	font-size: x-large;
+	font-weight: 600;
+}
+
+.text {
+	padding: 50px 25px;
+	max-width: 550px;
 }
 
 
@@ -86,6 +102,7 @@ img {
 	width: 1000px;
 	display: flex;
 	flex-direction: column;
+	background-color: white;
 }
 
 .outer-wrap {
@@ -93,6 +110,7 @@ img {
 	display: flex;
 	justify-content: center;
 	width: 100vw;
+	background-color: rgb(43, 43, 43);
 }
 
 .back-button {

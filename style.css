@@ -98,18 +98,34 @@ img {
 	width: 1000px;
 	display: flex;
 	flex-direction: column;
+	background-color: white;
+	height: 100vh;
 }
 
 .outer-wrap {
 	width: 100vw;
 	display: flex;
 	justify-content: center;
-	width: 100vw;
+	background-color: rgb(43, 43, 43);
 }
 
 .recipe-button {
 	margin: 10px auto;
 	padding: 0 20px;
+	border-radius: 8px;
+	background-color: rgb(222, 229, 231);
+	-webkit-box-shadow: 0px 15px 20px -5px rgba(209, 221, 238, 0.1); 
+	box-shadow: 0px 15px 20px -5px rgba(186, 202, 231, 0.1);
+}
+
+.back-button {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	left: 20px;
+	right: 0;
+	width: 100px;
+	padding: 10px 20px;
 	border-radius: 8px;
 	background-color: rgb(222, 229, 231);
 	-webkit-box-shadow: 0px 15px 20px -5px rgba(209, 221, 238, 0.1); 
