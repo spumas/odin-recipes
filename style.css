@@ -95,7 +95,8 @@ img {
 }
 
 .inner-wrap {
-	width: 1000px;
+	width: 100%;
+	max-width: 1000px;
 	display: flex;
 	flex-direction: column;
 	background-color: white;

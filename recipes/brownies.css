@@ -98,17 +98,18 @@ img {
 }
 
 .inner-wrap {
-	width: 1000px;
+	width: 100%;
+	max-width: 1000px;
 	display: flex;
 	flex-direction: column;
 	background-color: white;
+	height: 100vh;
 }
 
 .outer-wrap {
 	width: 100vw;
 	display: flex;
 	justify-content: center;
-	width: 100vw;
 	background-color: rgb(43, 43, 43);
 }
 
