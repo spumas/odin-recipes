@@ -124,6 +124,7 @@ img {
 	display: flex;
 	justify-content: center;
 	background-color: rgb(43, 43, 43);
+	overflow-x: hidden;
 }
 
 .back-button {
