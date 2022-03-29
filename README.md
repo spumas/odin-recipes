@@ -1,3 +1,6 @@
-## this is my recipe site for the Odin Project
+## This is my recipe site submission for the Odin Project.
 
-max-width of 1000px, centered and formatted nicely with the Inter font.
+Take a loot at it via the GitHub-Pages Button on the right ->
+
+Max-width of 600px, centered and formatted nicely with the Inter font.
+
