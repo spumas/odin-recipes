@@ -84,6 +84,7 @@ a:hover {
 iframe {
 	-webkit-box-shadow: 0px 15px 20px -5px rgba(0,0,0,0.2); 
 	box-shadow: 0px 15px 20px -5px rgba(0,0,0,0.2);
+	border-radius: 15px;
 }
 
 .img {
