@@ -129,7 +129,7 @@ img {
 	min-height: 100vh;
 	display: flex;
 	justify-content: center;
-	background-color: black;
+	background-color: rgb(28, 93, 179);
 }
 
 .back-button {
