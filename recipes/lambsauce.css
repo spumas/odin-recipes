@@ -115,7 +115,8 @@ img {
 	display: flex;
 	flex-direction: column;
 	background-color: white;
-	height: 100vh;
+	min-height: 100vh;
+	height: 100%;
 }
 
 .outer-wrap {
