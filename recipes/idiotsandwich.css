@@ -107,9 +107,7 @@ iframe {
 	display: flex;
 	flex-direction: column;
 	background-color: white;
-	min-height: 90vh;
-	border-radius: 37px;
-	margin: 1%
+	height: 100vh;
 }
 
 .outer-wrap {
